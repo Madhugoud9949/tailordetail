@@ -1,12 +1,18 @@
-/* Global styles */
 body {
   font-family: Arial, sans-serif;
 }
 
-/* Add these styles to your existing styles.css file */
+.Home-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: antiquewhite;
+}
 
-/* Carousel and Icon Container */
-.car-container {
+
+
+.Home-carousel-container {
   display: flex;
   flex-direction: row;
   justify-items: center;
@@ -15,7 +21,7 @@ body {
 
 /* Custom Carousel Image */
 .custom-image {
-  height: 400px; /* Set the desired height for the images */
+  height: 400px; 
  
   object-fit: cover;
 }
@@ -80,7 +86,7 @@ body {
 }
 
 /* Cards */
-.container2 {
+.Home-card-container {
   display: flex;
   justify-content:space-between;
   margin-bottom: 20px;
@@ -103,28 +109,12 @@ body {
 }
 
 /* Ratings and comments */
-.container3 {
+.Home-details-container {
   text-align: center;
 }
 
-/* Additional styles can be added as needed */
-.custom-image {
-  height: 400px; /* Set the desired height for the images */
-  
-  width: 90%;
- } 
 
 
- /* index.css */
-
-/* General styling */
-.container {
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: antiquewhite;
-}
 
 
 /* Additional styles can be added as needed */
