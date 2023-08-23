@@ -10,13 +10,13 @@ const TailorDetails = () => {
 
   return (
      
-      <div className="container">
+      <div className="Home-container">
        <div className="search-container">
             <input type="text" className="search-input" placeholder="Search for type of design" />
             <button type="submit" className="search-button"><FontAwesomeIcon icon={faSearch} /></button>
           </div>
 
-          <div className='car-container'>
+          <div className='Home-carousel-container'>
           <div>
           <CCarousel controls>
             <CCarouselItem>
@@ -42,7 +42,7 @@ const TailorDetails = () => {
      <button className="button1">View More</button>
    
        
-          <div className="container2">
+          <div className="Home-card-container">
           <div class="card">
                   <img src="https://img.freepik.com/premium-vector/businessman-profile-cartoon_18591-58479.jpg?w=140" alt='img'/>
                   <p>name</p>
@@ -76,7 +76,7 @@ const TailorDetails = () => {
 
           </div>
 
-          <div className="container">
+          <div className="Home-carousel-container-second">
           <CCarousel controls>
         <CCarouselItem>
           <CImage className=" custom-image" src={'https://coreui.io/react/docs/static/react-83088efde08a5dedde9f67a954cb4b5b.jpg'} alt="slide 1" />
@@ -94,7 +94,7 @@ const TailorDetails = () => {
           
           
           
-            <div className="container3">
+            <div className="Home-details-container">
               <h1>Ratings, Comments, Details</h1>
               <p>Ratings</p>
               <p>Comments</p>
